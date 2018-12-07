@@ -76,7 +76,7 @@ export class LoginV2 extends React.Component {
         </View>
         <View style={styles.footer}>
           <View style={styles.textRow}>
-            <RkText rkType='primary3'>Don’t have an account?</RkText>
+            <RkText rkType='primary3'>Don’t have an account? </RkText>
             <RkButton rkType='clear' onPress={this.onSignUpButtonPressed}>
               <RkText rkType='header6'>Sign up now</RkText>
             </RkButton>

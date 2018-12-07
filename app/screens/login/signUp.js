@@ -65,7 +65,7 @@ export class SignUp extends React.Component {
         </View>
         <View style={styles.footer}>
           <View style={styles.textRow}>
-            <RkText rkType='primary3'>Already have an account?</RkText>
+            <RkText rkType='primary3'>Already have an account? </RkText>
             <RkButton rkType='clear' onPress={this.onSignInButtonPressed}>
               <RkText rkType='header6'>Sign in now</RkText>
             </RkButton>
